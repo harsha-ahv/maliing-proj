@@ -4,7 +4,7 @@ import pandas as pd
 
 sender='1694547.harshavardhan@gmail.com'
 rec='memerversetv@gmail.com'
-password="ulpx inhs fwkk scph" # This is not the gmail password turn on two step authentication down there you will find app passwords generate a app password with any random name you will get one password generated use that password here
+password="" # This is not the gmail password turn on two step authentication down there you will find app passwords generate a app password with any random name you will get one password generated use that password here
 
 df=pd.read_csv('./demo.csv')
 for ind, row in df.iterrows():
